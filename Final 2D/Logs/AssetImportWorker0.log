@@ -1,0 +1,694 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro N; OS build 19043.1706; Version 2009; 64bit' Language: 'es' Physical Memory: 16344 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Github/Final POO/Final 2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58350
+Successfully changed project path to: D:/Github/Final POO/Final 2D
+D:/Github/Final POO/Final 2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/Final POO/Final 2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001722 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1811ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (401ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (159ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1111ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.3 MB.
+System memory in use after: 93.4 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 3.052700 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.696300 ms  DeleteObjects: 0.092800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009983 seconds 
+  Import took 0.036147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.187345 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(28245841be63bbf4791d6496e08c5ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(28245841be63bbf4791d6496e08c5ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1204f5bd2171b01d31a2f346458c08ce') in 0.009421 seconds 
+  Import took 0.013203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.287595 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack
+  artifactKey: Guid(1295ef7dacf67ab4b997d922ff6c1a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack using Guid(1295ef7dacf67ab4b997d922ff6c1a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad25dcb46f432592e03041e1bc53456e') in 0.009842 seconds 
+  Import took 0.013899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.735006 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Preview.png
+  artifactKey: Guid(c052a15295ef8dd44ab382ce4662fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Preview.png using Guid(c052a15295ef8dd44ab382ce4662fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4583c27e7bfc753cbf240779c501576e') in 0.122372 seconds 
+  Import took 0.126581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Sample.png
+  artifactKey: Guid(b02db46e489df16468f2c50052bbe139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Sample.png using Guid(b02db46e489df16468f2c50052bbe139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eddc0641728e90fb2292c7c27804765') in 0.022593 seconds 
+  Import took 0.026089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001045 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Sample.png
+  artifactKey: Guid(b02db46e489df16468f2c50052bbe139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Sample.png using Guid(b02db46e489df16468f2c50052bbe139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eddc0641728e90fb2292c7c27804765') in 0.015668 seconds 
+  Import took 0.019361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.284967 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Visit Kenney.url
+  artifactKey: Guid(fefea7688f2d4a74c9538193fae5400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Visit Kenney.url using Guid(fefea7688f2d4a74c9538193fae5400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b947267a63911241ed7b00db6c147be') in 0.035607 seconds 
+  Import took 0.039321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.905320 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/License.txt
+  artifactKey: Guid(6b8f78695e405474898db3fa58033078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/License.txt using Guid(6b8f78695e405474898db3fa58033078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd99a6281ea6bd2eb8415df8b54c84b') in 0.012202 seconds 
+  Import took 0.016066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/License.txt
+  artifactKey: Guid(6b8f78695e405474898db3fa58033078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/License.txt using Guid(6b8f78695e405474898db3fa58033078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd99a6281ea6bd2eb8415df8b54c84b') in 0.002600 seconds 
+  Import took 0.006503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.400674 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Vector
+  artifactKey: Guid(aa23e9e4f4ca7fc4483d1b4fd4bac0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Vector using Guid(aa23e9e4f4ca7fc4483d1b4fd4bac0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959cca767b103660a9b998e34dd205ae') in 0.006665 seconds 
+  Import took 0.010077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.505089 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Spritesheet
+  artifactKey: Guid(8f89d82df439546489fcf9f5b2deb5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Spritesheet using Guid(8f89d82df439546489fcf9f5b2deb5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5101aa193783eedf8d9fe54ce5ee45e') in 0.006465 seconds 
+  Import took 0.010510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.791231 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Spritesheet/spritesheet_default.png
+  artifactKey: Guid(f82dff9b2b0591c49b4b63d536ccb2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Spritesheet/spritesheet_default.png using Guid(f82dff9b2b0591c49b4b63d536ccb2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1800a0a6face527bcfeca31ddce26d7d') in 0.043896 seconds 
+  Import took 0.047462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Spritesheet/spritesheet_double.png
+  artifactKey: Guid(b0b514485c8fd6a488c9bdf655563bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Spritesheet/spritesheet_double.png using Guid(b0b514485c8fd6a488c9bdf655563bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fd47926257955145d2956bd0bbe8fe') in 0.040751 seconds 
+  Import took 0.044734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.751274 seconds.
+  path: Assets/Characters/kenney_monsterbuilderpack/Spritesheet/spritesheet_default.xml
+  artifactKey: Guid(031d38ce316c6f348acf244c96105488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/kenney_monsterbuilderpack/Spritesheet/spritesheet_default.xml using Guid(031d38ce316c6f348acf244c96105488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d39037cd6dbf8e1dc8374f37c432bc2') in 0.029386 seconds 
+  Import took 0.032960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.318280 seconds.
+  path: Assets/Characters/alien-ufo-pack
+  artifactKey: Guid(47c97a414f83677408db972772d9a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack using Guid(47c97a414f83677408db972772d9a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a399d651c4a292c9efdd53bbfdfdbe8') in 0.006598 seconds 
+  Import took 0.010420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570301 seconds.
+  path: Assets/Characters/alien-ufo-pack/Preview.png
+  artifactKey: Guid(789c9c578ec28e74c8ae478ce24ff733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/Preview.png using Guid(789c9c578ec28e74c8ae478ce24ff733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4844697ea82e3848e2c71c9888d8316b') in 0.015622 seconds 
+  Import took 0.018992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Characters/alien-ufo-pack/Sample.png
+  artifactKey: Guid(dd39da0584d4c944fbfaf16dadb847da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/Sample.png using Guid(dd39da0584d4c944fbfaf16dadb847da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbca002076e901b3e82aa12030b2597') in 0.014865 seconds 
+  Import took 0.018375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.763403 seconds.
+  path: Assets/Characters/alien-ufo-pack/Vector
+  artifactKey: Guid(bfe703c17a1572b48830ea3a88beb8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/Vector using Guid(bfe703c17a1572b48830ea3a88beb8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7795de375198e3a353cff7e3ff297a') in 0.002581 seconds 
+  Import took 0.006967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.986234 seconds.
+  path: Assets/Characters/alien-ufo-pack/Vector/vector_spaceships.swf
+  artifactKey: Guid(60984699b0e82324da38cf80f67973bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/Vector/vector_spaceships.swf using Guid(60984699b0e82324da38cf80f67973bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2abc700e85c2f2999ab10c5420ad4db') in 0.008070 seconds 
+  Import took 0.011747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.269294 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG
+  artifactKey: Guid(3ae4747da1248b54899c2a5a04fd7008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG using Guid(3ae4747da1248b54899c2a5a04fd7008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3a44d5dbf08eab669a1fb4f9745e15') in 0.007920 seconds 
+  Import took 0.011754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.445107 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/dome.png
+  artifactKey: Guid(c43ff64ff5c4bfa42890a2d206009212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/dome.png using Guid(c43ff64ff5c4bfa42890a2d206009212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536d560bbc79419213e68c196d6c8736') in 0.013331 seconds 
+  Import took 0.017284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipYellow_damage2.png
+  artifactKey: Guid(f9cd5d7f41dfa9d498b89de263200fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipYellow_damage2.png using Guid(f9cd5d7f41dfa9d498b89de263200fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1417a1d27fde62531cdb8cf4071f1d6') in 0.014870 seconds 
+  Import took 0.017844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBlue2.png
+  artifactKey: Guid(e84b9c8a05ad4a9499c52360427c06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBlue2.png using Guid(e84b9c8a05ad4a9499c52360427c06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c19d2a5782ac7aa798f649ae316e7e6') in 0.013682 seconds 
+  Import took 0.017263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipGreen_damage1.png
+  artifactKey: Guid(634bcf0ee0f78a843afde6f5c236d33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipGreen_damage1.png using Guid(634bcf0ee0f78a843afde6f5c236d33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01db434372e2740667bd366a57b5b7a') in 0.014878 seconds 
+  Import took 0.018166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserPink2.png
+  artifactKey: Guid(29d716240bcf59f4782d6559d243deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserPink2.png using Guid(29d716240bcf59f4782d6559d243deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4b511ce19791a5aa42159b8af06531') in 0.013644 seconds 
+  Import took 0.017045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserPink1.png
+  artifactKey: Guid(17bc120678a4aa948844c83a88b8de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserPink1.png using Guid(17bc120678a4aa948844c83a88b8de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716faa117543d86e4117d3cf14df4c81') in 0.014925 seconds 
+  Import took 0.018316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserYellow3.png
+  artifactKey: Guid(6a4fcfa7e877d5f48b52170ae7c1b1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserYellow3.png using Guid(6a4fcfa7e877d5f48b52170ae7c1b1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a514133f097a82db1bcc1cc2a15fe369') in 0.014447 seconds 
+  Import took 0.018041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipBlue_manned.png
+  artifactKey: Guid(e70248e8ed590f4419a98c10fe7ee995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipBlue_manned.png using Guid(e70248e8ed590f4419a98c10fe7ee995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fef8f231529f0bc27e2ea14a56ff93') in 0.015664 seconds 
+  Import took 0.019217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserYellow_burst.png
+  artifactKey: Guid(a8ac30944da337f4c8ce0bd53cf09fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserYellow_burst.png using Guid(a8ac30944da337f4c8ce0bd53cf09fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cac36e3288c8f49136403441b60545') in 0.013919 seconds 
+  Import took 0.017321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserYellow2.png
+  artifactKey: Guid(ca5f046527f364f4ab0975890128dc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserYellow2.png using Guid(ca5f046527f364f4ab0975890128dc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c512b85effcbf0dff30152620835ce51') in 0.012589 seconds 
+  Import took 0.016219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipBlue_damage2.png
+  artifactKey: Guid(188b384af7dddaf4b807e7e9a4565f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipBlue_damage2.png using Guid(188b384af7dddaf4b807e7e9a4565f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ab6682330b98648f9faabb3bbfbd6a') in 0.014542 seconds 
+  Import took 0.018509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBlue_groundBurst.png
+  artifactKey: Guid(e5f32fbe65623cc44afa478599dc508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBlue_groundBurst.png using Guid(e5f32fbe65623cc44afa478599dc508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e616a270c221ebcd70fd09852dac247f') in 0.016134 seconds 
+  Import took 0.019752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipBeige_damage2.png
+  artifactKey: Guid(68360e75ad1d9f54aa5401e3aef4a385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipBeige_damage2.png using Guid(68360e75ad1d9f54aa5401e3aef4a385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c92b31a40d50f682e8241005280b5ef') in 0.014741 seconds 
+  Import took 0.018137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipYellow_manned.png
+  artifactKey: Guid(e93db7dafe9390c4b9a70195e28b1344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipYellow_manned.png using Guid(e93db7dafe9390c4b9a70195e28b1344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea045f34ecd14ec525a0779709488134') in 0.015937 seconds 
+  Import took 0.019470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserYellow1.png
+  artifactKey: Guid(1ccf51a932f6a664599c708928b37e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserYellow1.png using Guid(1ccf51a932f6a664599c708928b37e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5300dad372ba9a83af088ba0bbb31042') in 0.013269 seconds 
+  Import took 0.016584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipYellow_damage1.png
+  artifactKey: Guid(25748084629c8684b859e9d08b4590ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipYellow_damage1.png using Guid(25748084629c8684b859e9d08b4590ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5d89341f8f04535958ce94eb6e0ad0') in 0.015294 seconds 
+  Import took 0.018727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserPink_burst.png
+  artifactKey: Guid(ebab0a02887e2f242874832e11c24bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserPink_burst.png using Guid(ebab0a02887e2f242874832e11c24bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7177d90ef17b382261c56f8de560a15') in 0.016485 seconds 
+  Import took 0.020006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipGreen_manned.png
+  artifactKey: Guid(db664eee0ff4032478b81d0247274f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipGreen_manned.png using Guid(db664eee0ff4032478b81d0247274f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feb7bfa6cfbf075f0ab20b0bd61aca6') in 0.016441 seconds 
+  Import took 0.020011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipYellow.png
+  artifactKey: Guid(e3d1e4d46af0355418ee79bb9ed4df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipYellow.png using Guid(e3d1e4d46af0355418ee79bb9ed4df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3baa0346ceb73fa62d08e94b71b2d30') in 0.012882 seconds 
+  Import took 0.016116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserPink3.png
+  artifactKey: Guid(0400d8fdd55f69e49b6f63564354f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserPink3.png using Guid(0400d8fdd55f69e49b6f63564354f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fb3537e928fe216d36d148b0a4a91e') in 0.014691 seconds 
+  Import took 0.018010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipBeige.png
+  artifactKey: Guid(1127144e0b0048d40be2fa919abf8322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipBeige.png using Guid(1127144e0b0048d40be2fa919abf8322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdade619bca8c520e631f49f871c3e14') in 0.013440 seconds 
+  Import took 0.016886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipBeige_damage1.png
+  artifactKey: Guid(d9bc466cd0a107745a4e3895a2c06fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipBeige_damage1.png using Guid(d9bc466cd0a107745a4e3895a2c06fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23a5647f4af0dab461a11cb802048e6') in 0.014184 seconds 
+  Import took 0.017832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserGreen1.png
+  artifactKey: Guid(338a7b440c74f1f4f8055266f9ee4a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserGreen1.png using Guid(338a7b440c74f1f4f8055266f9ee4a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f69a089039dc0e14b8e3ebbb80b460') in 0.011195 seconds 
+  Import took 0.015565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipPink.png
+  artifactKey: Guid(da3be45e070d0fa40aed561efe11cc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipPink.png using Guid(da3be45e070d0fa40aed561efe11cc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57c842be230e3a9201d3ef4884c94f7') in 0.014114 seconds 
+  Import took 0.017562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserPink_groundBurst.png
+  artifactKey: Guid(15d2292bb9b267d47abc22099fd85913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserPink_groundBurst.png using Guid(15d2292bb9b267d47abc22099fd85913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44fdb95a919612a7ff8a3f43442788b') in 0.012707 seconds 
+  Import took 0.016076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserGreen2.png
+  artifactKey: Guid(ab8d876e19486614fbe3de59c0fef773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserGreen2.png using Guid(ab8d876e19486614fbe3de59c0fef773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebe0a590c5556f288cb3bc3c4e51035') in 0.012289 seconds 
+  Import took 0.015569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBeige2.png
+  artifactKey: Guid(44731830c0734fa44b409ba20be55884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBeige2.png using Guid(44731830c0734fa44b409ba20be55884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb196d4c249558213cd8c76ba46086') in 0.012883 seconds 
+  Import took 0.016320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserGreen_burst.png
+  artifactKey: Guid(c757c6bab2e2a7f4b827241bd600e0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserGreen_burst.png using Guid(c757c6bab2e2a7f4b827241bd600e0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8785809c3e12d99a0308a1d91b517870') in 0.013190 seconds 
+  Import took 0.016450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserYellow_groundBurst.png
+  artifactKey: Guid(b0789453090e0f8488071e5c3b8189d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserYellow_groundBurst.png using Guid(b0789453090e0f8488071e5c3b8189d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae8f74a83ff8fc921718670e4c9997') in 0.013048 seconds 
+  Import took 0.016350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipBlue_damage1.png
+  artifactKey: Guid(c3957ad386d113c44a15b60533b601ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipBlue_damage1.png using Guid(c3957ad386d113c44a15b60533b601ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4575a8f9f8fa61f3e30d6534f93544d1') in 0.013073 seconds 
+  Import took 0.016406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipGreen_damage2.png
+  artifactKey: Guid(fe3f39e28c00e3f4aadf2297446046ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipGreen_damage2.png using Guid(fe3f39e28c00e3f4aadf2297446046ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9675d853d30abb2ed0f352968aa4d83f') in 0.012721 seconds 
+  Import took 0.016148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipBeige_manned.png
+  artifactKey: Guid(7af53e168b1657543a7c6a307459b4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipBeige_manned.png using Guid(7af53e168b1657543a7c6a307459b4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fbd415c3527eb37431f074b089b270') in 0.016733 seconds 
+  Import took 0.019931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipPink_damage1.png
+  artifactKey: Guid(4af92e30f03b0424f8b8ca7c814530cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipPink_damage1.png using Guid(4af92e30f03b0424f8b8ca7c814530cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7817e9ee3768d5318637b6bffdcf7ca') in 0.014133 seconds 
+  Import took 0.017446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserGreen_groundBurst.png
+  artifactKey: Guid(cb2cd29ce74938a4f98e4bb539f20768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserGreen_groundBurst.png using Guid(cb2cd29ce74938a4f98e4bb539f20768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc07dfa23979bd3b975a8b329915ccd') in 0.017104 seconds 
+  Import took 0.020253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBeige_groundBurst.png
+  artifactKey: Guid(993c72df02b9cdd459944b8410b4cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBeige_groundBurst.png using Guid(993c72df02b9cdd459944b8410b4cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c572a91880e2ef4eda1f42f91aabcc9') in 0.013281 seconds 
+  Import took 0.016530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipGreen.png
+  artifactKey: Guid(3262cefd3aa0f8a4988886b708fa6dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipGreen.png using Guid(3262cefd3aa0f8a4988886b708fa6dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba00d9d2278c008e404e0aa4146d968') in 0.014935 seconds 
+  Import took 0.018186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBlue_burst.png
+  artifactKey: Guid(f911aeca998a79a4d9f154fe3c66c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBlue_burst.png using Guid(f911aeca998a79a4d9f154fe3c66c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4d88fc4575ba999eafc4f9b1bfc7c0') in 0.016605 seconds 
+  Import took 0.020923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBeige_burst.png
+  artifactKey: Guid(1c4f90adb7a7df844b35cf4bcfa8c79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBeige_burst.png using Guid(1c4f90adb7a7df844b35cf4bcfa8c79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7790802f819c96d33f91f747be22a2') in 0.014752 seconds 
+  Import took 0.018132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBeige3.png
+  artifactKey: Guid(d151c7eb6fea4b841a53d2210056657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBeige3.png using Guid(d151c7eb6fea4b841a53d2210056657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4872dec3935655891fb752a2729644f1') in 0.011529 seconds 
+  Import took 0.014986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBlue3.png
+  artifactKey: Guid(1a5fe2b8db13c2643a63eac24da6efa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBlue3.png using Guid(1a5fe2b8db13c2643a63eac24da6efa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674a5e691fe7d77fccdd06fe7e87bae3') in 0.012270 seconds 
+  Import took 0.015779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBeige1.png
+  artifactKey: Guid(1e3b0ede30b11a3459575bb63a30b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBeige1.png using Guid(1e3b0ede30b11a3459575bb63a30b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efa456a2d6c4032d12d5dedeb6947ed') in 0.010885 seconds 
+  Import took 0.014561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipPink_manned.png
+  artifactKey: Guid(bac702d04025a2640be4f4bc3ce75472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipPink_manned.png using Guid(bac702d04025a2640be4f4bc3ce75472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d73ebd5110752ba41f9eda07b097d59') in 0.015294 seconds 
+  Import took 0.018995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserGreen3.png
+  artifactKey: Guid(d2319121d0a99dc448e125d8c73413ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserGreen3.png using Guid(d2319121d0a99dc448e125d8c73413ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf45eaafdc572145407639f559ae6085') in 0.012229 seconds 
+  Import took 0.015886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/laserBlue1.png
+  artifactKey: Guid(c94d90249f6f06a45b97fe20c5998457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/laserBlue1.png using Guid(c94d90249f6f06a45b97fe20c5998457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab2e30a0960574439c49ea979af920c') in 0.011625 seconds 
+  Import took 0.015343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipPink_damage.png
+  artifactKey: Guid(33ec6b9f22a19f749a75aad5a4ff8a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipPink_damage.png using Guid(33ec6b9f22a19f749a75aad5a4ff8a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957ed834be24b5c74af43df4c4f25e75') in 0.013051 seconds 
+  Import took 0.016540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Characters/alien-ufo-pack/PNG/shipBlue.png
+  artifactKey: Guid(3bcd203a3cc51ac4b9d11a885c33b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/PNG/shipBlue.png using Guid(3bcd203a3cc51ac4b9d11a885c33b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52f59f1c614661aca0d9b0f6084a799') in 0.014538 seconds 
+  Import took 0.018350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.490621 seconds.
+  path: Assets/Characters/alien-ufo-pack/Spritesheets/spritesheet_lasers.png
+  artifactKey: Guid(20f8bc0a490a9e642a5ceabc982ccee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/Spritesheets/spritesheet_lasers.png using Guid(20f8bc0a490a9e642a5ceabc982ccee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d25c75fecf398239f8808996b72429') in 0.015881 seconds 
+  Import took 0.019709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Characters/alien-ufo-pack/Spritesheets/spritesheet_spaceships.png
+  artifactKey: Guid(49880ba150c36c7448a8602a46494c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/alien-ufo-pack/Spritesheets/spritesheet_spaceships.png using Guid(49880ba150c36c7448a8602a46494c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7e0d50aa06dbc40b8fcc7cf28444df') in 0.018673 seconds 
+  Import took 0.021879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 357.665404 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(dda6e50a86ea0f2469bebd1bb70eb19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(dda6e50a86ea0f2469bebd1bb70eb19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931dc6456791df47b5d039af77a14526') in 0.007504 seconds 
+  Import took 0.010890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.740564 seconds.
+  path: Assets/Scenes/Tilemap
+  artifactKey: Guid(9e090d8ced5487d41b3889d62b7f02ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tilemap using Guid(9e090d8ced5487d41b3889d62b7f02ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83f694f9884686603d750761eb07b4e') in 0.005922 seconds 
+  Import took 0.009652 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
