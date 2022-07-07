@@ -16,14 +16,14 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D playerRigidbody2D;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         playerRigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         jumpForce = 30f;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         moveHorizontal = Input.GetAxisRaw("Horizontal");
