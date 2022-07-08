@@ -28,8 +28,10 @@ public class PlayerMovement : MonoBehaviour
     {
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         moveVertical = Input.GetAxisRaw("Vertical");
-
+        
     }
+
+    
 
     private void FixedUpdate()
     {
@@ -51,6 +53,13 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = false;
         }
+
+        if (collision.gameObject.GetComponent<Collectable>()!=null) 
+        {
+            Debug.Log("toque una moneda");
+            collision.gameObject.GetComponent<Collectable>().colect();
+            Destroy(collision.gameObject);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -61,4 +70,13 @@ public class PlayerMovement : MonoBehaviour
         }        
     }
 
+
+    public void getDagame(int dmg)
+    {
+        Health -= dmg;
+        if (Health <= 0)
+        {
+            Debug.Log(" Estoy muerto");
+        }
+    }
 }
