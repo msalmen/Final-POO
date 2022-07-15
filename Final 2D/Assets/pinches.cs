@@ -4,16 +4,8 @@ using UnityEngine;
 
 public class pinches : Enemigos
 {
-    protected override void Test()
-    {
-        
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        damage = 1;
-    }
+       
+    
 
     // Update is called once per frame
     void Update()
@@ -24,6 +16,6 @@ public class pinches : Enemigos
     public override void OnTriggerEnter2D(Collider2D collision)
     {
         base.OnTriggerEnter2D(collision);
-        Debug.Log("Jugador muerto");
+        Debug.Log("Jugador recibe daño");
     }
 }

@@ -2,23 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Enemigos : MonoBehaviour, Collectable
+public abstract class Enemigos : MonoBehaviour
 {
-    [SerializeField]protected int damage;
+    [SerializeField]protected ScriptableEnemy EnemyData;
+    private int daño;
 
-    public void colect()
+    private void Awake()
     {
-        Debug.Log("Estas muerto");
+        daño = EnemyData.Daño;
+        daño *= 2;
     }
+
+
 
     public virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.GetComponent<PlayerMovement>().getDagame(damage);
+            collision.GetComponent<PlayerMovement>().GetDagame(EnemyData.Daño);
+            Debug.Log("hice daño" + daño);
         }
     }
 
-    protected abstract void Test();
+    
 
 }

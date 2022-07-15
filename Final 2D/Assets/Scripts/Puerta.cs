@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Puerta : MonoBehaviour
 {
-    public int contadorDeLlaves = 3;
+    public int llavesNecesarias = 3;
 
 
     private void DestruirPuerta(int descontarLlaves)
     {
         
-        contadorDeLlaves -= descontarLlaves;
-        if (contadorDeLlaves<= 0)
+        llavesNecesarias -= descontarLlaves;
+        if (llavesNecesarias <= 0)
             Destroy(this.gameObject);
     }
 
