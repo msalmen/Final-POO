@@ -4,35 +4,28 @@ using UnityEngine;
 
 public class Mosca : Enemigos
 {
-    [SerializeField]
-    private float offset1, offset2;
-    public float t;
-    
-    
+    [SerializeField] private float minimum, maximum;
+    [SerializeField] private float index;
+
+    static float t=0.0f;    
 
     
 
-    private void Start()
+    
+    void FixedUpdate()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        /*transform.position += new Vector3(Mathf.Lerp(offset1, offset2, t), 0, 0);
-        t += 0.1f * Time.deltaTime;
+        transform.position += new Vector3(Mathf.Lerp(minimum, maximum, t), 0, 0);
+        t += index * Time.deltaTime;
 
 
         if (t>1.0f)
         {
-
-            float temp = offset2;
-            offset2 = offset1;
-            offset1 = temp;
-            t = 0.0f;
+            float temp = maximum;
+            maximum = minimum;
+            minimum = temp;
+            t = 0.0f;            
         }
-        */
+        
     }
     
     

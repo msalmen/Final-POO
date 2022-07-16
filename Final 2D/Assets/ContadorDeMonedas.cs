@@ -14,7 +14,11 @@ public class ContadorDeMonedas : MonoBehaviour
         gameOver.text = "GAME OVER";
     }
 
-    
+    public void YouWinText()
+    {
+        gameOver.text = "YOU WIN";
+    }
+
 
     public void SumarPuntos()
     {
@@ -27,11 +31,13 @@ public class ContadorDeMonedas : MonoBehaviour
     {
         Moneda.sumarpuntos += SumarPuntos;
         PlayerMovement.gameOver += GameOverText;
+        Bandera.youWin += YouWinText;
     }
 
     private void OnDisable()
     {
         Moneda.sumarpuntos -= SumarPuntos;
         PlayerMovement.gameOver -= GameOverText;
+        Bandera.youWin -= YouWinText;
     }
 }
